@@ -9,13 +9,13 @@ You can [download FIJI here](https://fiji.sc)
 #### *Task 1:*
 Answer the following questions about the [Phase contrast](image_files/PhaseContrast.tif) and [Differential interference contrast](image_files/DifferentialInterference.tif) images:
 Q1) What is the maximum intensity value in the [Differential interference contrast](image_files/DifferentialInterference.tif) file? 
-A1) 254
+A1) 255 is the maximum of 8bit images. 254 is the maximum intensity of this file.
 
 Q2) What are the dimensions of the [Phase contrast](image_files/PhaseContrast.tif) file?  
 A2) 314 x 226, 8 BitDepth).  
 
 Q3) Which image has greater dynamic range of pixel intensities? Phase or DiffInt?  
-A3) Differential interfernce has a greater dynamic range (219)
+A3) the Differential interference file has a greater dynamic range (219), but since they are both 8-bit images, the images themselves have the same dynamic range.
 
 #### *Task 2:*
 Open the file [Fluorescence_composite.tif](image_files/Fluorescence_composite.tif) and convert all the signal in the red channel to the blue channel, export the file as a JPG and upload it to this repository in the [image_files](image_files) directory with the name "Composite.jpg".  
@@ -34,7 +34,7 @@ Save the results as "Results.csv" and upload into the same directory where this 
 Also save the resultant "Count Mask" image file with the name "Count_Mask_22946173.tif" and upload into the [image_files](image_files) directory. (It should show up below once it is uploaded).  I added the file but it won't show below for some reason
 ![](image_files/Count_Mask_22946173.tif)  
 
-I added the file but it won't show below for some reason? It's in the image files under the correct name.
+I added the file but it won't show below for some reason. It's in the image files under the correct name.
 
 Q4) How many particles were detected?  
 A4) 1417
